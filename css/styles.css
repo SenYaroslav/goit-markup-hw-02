@@ -1,0 +1,85 @@
+/* Колір основного тексту #212121 */
+/* Колір другорядного тексту #757575 */
+
+/* Колір тексту лого #2196F3 */
+/* Колір тексту лого #000000 */
+
+/* Колір тексту акцента #FFFFFF */
+
+/* Колір адреси в футері rgba(255, 255, 255, 0.6) */
+
+
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+
+body {
+    background-color: #F5F5F5;
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Header */
+.logo {
+    color: #000000;
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.logo:hover, logo:focus {
+    color: var(--accent-color);
+}
+
+/* Site nav */
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color: #2F303A;
+}
+
+/* Button */
+
+.button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+/* Sections */
+
+.section-title {
+    color: var(--primary-text-color);
+}
+
+/* Features */
+
+.features .text {
+    color: var(--text-color);
+}
+
+/* Features */
+
+.team-list .position {
+    color: var(--text-color);
+}
