@@ -49,6 +49,11 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .contacts .contact {
   color: var(--text-color);
 }
@@ -207,6 +212,7 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  font-family: inherit;
 }
 
 .filter:hover,
